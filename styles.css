@@ -1,2 +1,24 @@
+html, body {
+    margin: 0; /* Remove default margin */
+    height: 100%; /* Ensure full height for body */
+}
+
+.holder {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+}
+
+.item-1 {
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    background-color: red; /* Set background color */
+    display: flex; /* Enable flexbox for inner content */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    color: white; /* Change text color for visibility */
+}
 
 /* Your CSS Code here. */
